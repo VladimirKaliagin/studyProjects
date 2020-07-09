@@ -1,0 +1,316 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+li {
+	list-style-type: none;
+
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+label {
+	font-size: 30px;
+}
+
+.header {
+	display: grid;
+	grid-template-columns: auto auto;
+	padding: 50px 75px;
+	
+	background-color: #445162;
+	color: white;
+}
+
+.header-logo {
+	font-size: 60px;
+}
+.header-ul {
+	margin-top: 50px;
+	font-size: 20px;
+}
+
+.pd-b-20{
+	padding-bottom: 20px;
+
+}
+
+.header-img {
+	margin-left: 250px;
+	
+	background-color: white;
+	
+}
+
+.header-icons{
+	margin-right: 12px;
+}
+
+
+.main-mr-t{
+	
+	margin: 50px 175px;
+	
+}
+
+.inline-blocks {
+
+	
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.block_leftInfo {
+	width: 890px;
+	color: #445162;
+
+}
+.block_leftInfo h2{
+	font-size: 30px;
+}
+.block_leftInfo p:first-child{
+	margin-top: 30px;
+}
+.block_leftInfo p{
+	font-size: 20px;
+}
+
+.block_img {
+	margin-left: 120px;
+	background-color: #445162;
+	width: 430px;
+	height: 250px;
+}
+
+.pluses {
+	display: grid;
+	grid-template-columns: auto auto;
+	margin-top: 30px;
+}
+
+.pluses-dig {
+	margin-top: 100px;
+	color: #445162;
+}
+.pluses-dig h2 {
+	text-align: center;
+	font-size: 30px;
+}
+
+.pluses_leftSide, .pluses_rightSide {
+	
+	padding-right: 100px;
+	font-size: 18px;
+
+}
+.pluses_leftSide img, .pluses_rightSide img {
+	float: left;
+	
+}
+
+.pluses_leftSide li:not(:last-child), .pluses_rightSide li:not(:last-child) {
+	float: left;
+	padding-bottom: 40px;
+}
+
+.pluses_leftSide h3, .pluses_rightSide h3 {
+	
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 20px;
+	font-size: 24px;
+
+}
+
+.rev {
+	font-size: 14;
+	text
+}
+.rev p{
+	color: #989898;
+	margin-left: 85px;
+	
+}
+
+.cards {
+
+	width: 1180px;
+	margin:0 380px;
+	height: 600px;
+
+}
+.cards h2 {
+	margin-top: 100px;
+	text-align: center;
+	color: #445162;
+	font-size: 30px;
+	padding-bottom: 35px;
+}
+.card-grid {
+	margin: 0px;
+	padding: 0px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 45px;
+	margin-bottom: 50px;
+	
+}
+
+.card_s {
+	height: 390px;
+	margin-top: 210px;
+}
+
+.card_m {
+	height: 520px;
+	margin-top: 80px;
+
+}
+
+
+.card-grid:last-child{
+	/*margin-right: -300px;*/
+}
+
+.card {
+	background-color: #445162;
+	color: white;
+	width: 300px;
+	border-radius: 7px;
+}
+
+.card-header {
+	font-size: 24px;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.card-body_prise {
+	text-align: center;
+	padding: 20px 100px;
+	font-size: 30px;
+	background-color: #fff;
+	color: #445162;
+	margin: 0 5px;
+}
+
+.card-body ul {
+	padding: 20px 30px;
+
+
+}
+
+.card-body li {
+	list-style-type:decimal;
+}
+
+.card-body li:not(:last-child) {
+	padding-left: 5px;
+	padding-bottom: 15px;
+	
+	font-size: 14px;
+}
+
+.card-body_button {
+	color: #445162;
+	background-color: #fff;
+	border-radius: 5px;
+	margin: 10px 20px;
+	padding: 10px 40px;
+	text-align: center;
+
+}
+
+.card-body_button a {
+	color: #445162;
+
+}
+
+.card_l {
+	height: 585px;
+	margin-top: 20px;
+}
+
+.contacts {
+	background-color: #445162;
+	margin: 150px 0 0 0;
+	padding: 0px;
+	width: 100%;
+}
+.contacts h2{
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+.contacts-grid {
+	margin: 0 250px;
+	padding: 0 270px;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 30px;
+	/*margin-right: 350px;*/
+}
+
+input, textarea {
+	width: 500px;
+	margin-bottom: 15px;
+	padding: 10px 15px;
+	border-radius: 5px;
+	border: 1px solid white;
+
+}
+
+.btn {
+	margin: 0 160px;
+	color: #445162;
+	background-color: #fff;
+	width: 150px;
+	text-align: center;
+	border-radius: 5px;
+	padding: 15px 25px;
+}
+form {
+	width: 500px;
+	margin-bottom: 50px;
+}
+
+.contacts_info {
+	color: #fff;
+	font-size: 17px;
+}
+.contacts_info img {
+	margin-right: 5px;
+
+}
+
+.contacts_info li {
+
+	padding-bottom: 10px;
+}
+
+.soc {
+	margin-top: 30px;
+}
+
+.btn a {
+	color: #445162;
+
+}
+
+footer {
+	text-align: center;
+	color: #445162;
+	background-color: #fff;
+	padding: 5px 0;
+	font-size: 12px;
+}
